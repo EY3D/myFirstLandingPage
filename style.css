@@ -4,7 +4,7 @@
 }
 
 a {
-  color: white;
+  color: #F9FAF8;
   text-decoration: none;
 }
 
@@ -15,7 +15,7 @@ button {
 }
 .button1 {
   background-color: #3882F6;
-  color: white;
+  color: #F9FAF8;
   font-weight: bold;
   font-size: 16px;
   margin: 1em 0em;
@@ -24,7 +24,7 @@ button {
 
 .darkbg {
   background-color: #1F2937;
-  color: white;
+  color: #F9FAF8;
 }
 
 .header-container {
@@ -38,19 +38,6 @@ button {
   gap: 25px;  
 }
 
-.lightbg {
-  display: flex;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 24px;
-  padding: 2.5em;
-}
-
-.screenshot-container {
-  display: flex;
-}
-
-
 .hero-container{
   display: flex;
   padding: 6em 18em;
@@ -60,22 +47,66 @@ button {
 .hero-block1 {
   padding: 1em 2em;
 }
-.hero-block2 {
-
-}
 
 .herotext {
   font-size: 48px;
   font-weight: bolder;
 }
 
-.greybg {
+.lightbg {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 2em;
+}
+
+.devs-container {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+
+}
+
+.devImg {
+  border-radius: 12px;
+  outline: 3px solid #3882F6;
+}
+
+.dev {
+  margin: 0px 40px;
+}
+
+.quote-container {
   background-color: #E5E7EB;
   color: #1F2937;
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
-  padding: 80px 310px;
+  padding: 80px 500px;
+}
+
+.calltoaction-container{
+  display: flex;
+  justify-content: center;
+}
+
+.calltoaction-blue {
+  background-color:#3882F6;
+  color: #F9FAF8;
+  border-radius: 12px;
+  margin: 6em;
+  padding: 3em;
+  display: flex;
+}
+
+.signup2 {
+  flex-grow: 2;
+  border: 2px solid white;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  margin: 0em 0em 0em 4em;
+
 }
 .footer {
   display: flex;
