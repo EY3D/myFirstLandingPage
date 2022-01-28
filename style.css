@@ -28,7 +28,7 @@ button {
 }
 
 .header-container {
-  padding: 20px 316px;
+  padding: 20px 200px;
   display: flex;
 }
 .navbar-block {
@@ -40,7 +40,7 @@ button {
 
 .hero-container{
   display: flex;
-  padding: 6em 18em;
+  padding: 6em 10em;
   justify-content: center;
 }
 
@@ -83,7 +83,7 @@ button {
   font-size: 36px;
   font-weight: lighter;
   font-style: italic;
-  padding: 80px 500px;
+  padding: 80px 300px;
 }
 
 .calltoaction-container{
